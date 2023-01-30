@@ -1,0 +1,57 @@
+{
+    "name": "tbh-theme-intellij",
+    "displayName": "TBH-Theme for Intellij",
+    "publisher": "tbh-theme",
+    "description": "Theme name to be decided for Intellij",
+    "version": "0.0.1",
+    "categories": [
+        "Themes"
+    ],
+    "extensionKind": [
+        "ui",
+        "workspace"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "capabilities": {
+        "untrustedWorkspaces": {
+            "supported": true
+        },
+        "virtualWorkspaces": true
+    },
+    "main": "dist/main.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Andree37/intellij.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Andree37/intellij/issues"
+    },
+    "sponsor": {
+        "url": "https://github.com/Andree37/intellij"
+    },
+    "icon": "icon.png",
+    "license": "MIT",
+    "__metadata": {
+        "publisherDisplayName": "tbh-theme",
+        "publisherId": "insert uuid here",
+        "id": "insert uuid here",
+        "isPreReleaseVersion": false
+    },
+    "devDependencies": {
+        "@tbh-theme/palette": "^0.0.22",
+        "@types/node": "^16.0.0",
+        "@typescript-eslint/eslint-plugin": "^5.34.0",
+        "@typescript-eslint/parser": "^5.34.0",
+        "eslint": "^8.22.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.7.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.7.4",
+        "handlebars": "^4.7.7",
+        "path": "^0.12.7",
+        "colormath.js": "^1.2.4"
+    }
+}
