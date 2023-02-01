@@ -17,16 +17,15 @@ on:
             - '**.gradle.kts'
     workflow_dispatch:
 
-env:
-    DENO_DIR: deno_cache
-
 jobs:
     build:
-        name: Build Plugin
         runs-on: ubuntu-latest
         steps:
-            -   name: Checkout Repository
-                uses: actions/checkout@v3
+            -   uses: actions/checkout@v3
+            -   uses: actions/setup-node@v3
+                with:
+                    node-version: 16
+                    cache: yarn
 
             -   name: Setup Java
                 uses: actions/setup-java@v3
@@ -35,16 +34,13 @@ jobs:
                     java-version: 11
                     cache: 'gradle'
 
-            -   name: Setup Deno
-                uses: denoland/setup-deno@v1
-                with:
-                    deno-version: v1.x
+            -   name: Install dependencies & build
+                run: |
+                    yarn install --frozen-lockfile
+                    yarn build
 
-            -   name: Cache Deno
-                uses: actions/cache@v3
-                with:
-                    key: ${{ hashFiles('generateFlavours/lock.json') }}
-                    path: ${{ env.DENO_DIR }}
+            -   name: Lint
+                run: yarn lint
 
             -   name: Generate All Flavours
                 run: ./generateFlavours/main.ts
@@ -55,7 +51,7 @@ jobs:
             -   name: Upload JAR
                 uses: actions/upload-artifact@v3
                 with:
-                    name: "Catppuccin Theme-Snapshot.jar"
+                    name: "Tbh Theme-Snapshot.jar"
                     path: build/libs/*.jar
 
             -   name: Output Unreleased Changes
