@@ -2,7 +2,7 @@
     <colors>
         <option name="ADDED_LINES_COLOR" value="{{emerald}}"/>
         <option name="ANNOTATIONS_COLOR" value="{{text}}"/>
-        <option name="CARET_COLOR" value="{{rosewater}}"/>
+        <option name="CARET_COLOR" value="{{brink_pink}}"/>
         <option name="CARET_ROW_COLOR" value="{{isLatte (opacity surface1 0.15) (opacity surface1 0.2)}}"/>
         <option name="CONSOLE_BACKGROUND_KEY" value="{{base}}"/>
         <option name="DELETED_LINES_COLOR" value="{{naples_yellow}}"/>
@@ -17,9 +17,9 @@
         <option name="FILESTATUS_HIJACKED" value="{{yellow_red}}"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="{{surface2}}"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="{{isLatte overlay2 overlay0}}"/>
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="{{peach}}"/>
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="{{peach}}"/>
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="{{peach}}"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="{{naples_yellow}}"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="{{naples_yellow}}"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="{{naples_yellow}}"/>
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="{{emerald}}"/>
         <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="{{overlay0}}"/>
         <option name="FILESTATUS_MERGED" value="{{mauve}}"/>
@@ -27,8 +27,8 @@
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="{{cornflower_blue}}"/>
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="{{cornflower_blue}}"/>
         <option name="FILESTATUS_SUPPRESSED" value="{{isLatte overlay2 overlay0}}"/>
-        <option name="FILESTATUS_SWITCHED" value="{{lavender}}"/>
-        <option name="FILESTATUS_UNKNOWN" value="{{opacity peach 0.9}}"/>
+        <option name="FILESTATUS_SWITCHED" value="{{pink}}"/>
+        <option name="FILESTATUS_UNKNOWN" value="{{opacity naples_yellow 0.9}}"/>
         <option name="FILESTATUS_addedOutside" value="{{emerald}}"/>
         <option name="FILESTATUS_changelistConflict" value="{{opacity red 0.9}}"/>
         <option name="FILESTATUS_modifiedOutside" value="{{cornflower_blue}}"/>
@@ -49,7 +49,7 @@
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="{{overlay1}}"/>
         <option name="LOOKUP_COLOR" value="{{surface0}}"/>
         <option name="METHOD_SEPARATORS_COLOR" value="{{surface0}}"/>
-        <option name="MODIFIED_LINES_COLOR" value="{{peach}}"/>
+        <option name="MODIFIED_LINES_COLOR" value="{{naples_yellow}}"/>
         <option name="MODIFIED_TAB_ICON" value="{{cornflower_blue}}"/>
         <option name="NOTIFICATION_BACKGROUND" value="{{mantle}}"/>
         <option name="PROMOTION_PANE" value="{{surface0}}"/>
@@ -91,7 +91,7 @@
         </option>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR1">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR2">
@@ -201,7 +201,7 @@
         </option>
         <option name="BUILDOUT.SECTION_NAME">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="BUILDOUT.VALUE">
@@ -217,12 +217,12 @@
         <option name="CODE_LENS_BORDER_COLOR">
             <value>
                 <option name="BACKGROUND" value="{{surface0}}"/>
-                <option name="EFFECT_COLOR" value="{{lavender}}"/>
+                <option name="EFFECT_COLOR" value="{{pink}}"/>
             </value>
         </option>
         <option name="COFFEESCRIPT.CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -322,7 +322,7 @@
         </option>
         <option name="CONSOLE_SYSTEM_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="{{rosewater}}"/>
+                <option name="FOREGROUND" value="{{brink_pink}}"/>
             </value>
         </option>
         <option name="CONSOLE_USER_INPUT">
@@ -340,7 +340,7 @@
         </option>
         <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -348,7 +348,7 @@
         </option>
         <option name="CONSTRUCTOR_DECLARATION_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -380,7 +380,7 @@
         </option>
         <option name="CSS.IMPORTANT">
             <value>
-                <option name="FOREGROUND" value="{{lavender}}"/>
+                <option name="FOREGROUND" value="{{pink}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -470,7 +470,7 @@
         </option>
         <option name="CSV_PLUGIN_COLUMN_COLORING_ATTRIBUTE_9">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="CTRL_CLICKABLE">
@@ -483,7 +483,7 @@
         <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD"/>
         <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -541,7 +541,7 @@
         </option>
         <option name="Clojure Numbers">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="Clojure Strings">
@@ -561,12 +561,12 @@
         </option>
         <option name="CodeWithMe.USER_2_MARKER">
             <value>
-                <option name="BACKGROUND" value="{{peach}}"/>
+                <option name="BACKGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="CodeWithMe.USER_2_SELECTION">
             <value>
-                <option name="BACKGROUND" value="{{opacity peach 0.4}}"/>
+                <option name="BACKGROUND" value="{{opacity naples_yellow 0.4}}"/>
             </value>
         </option>
         <option name="CodeWithMe.USER_3_MARKER">
@@ -625,7 +625,7 @@
         </option>
         <option name="DART_ENUM_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="DART_FAT_ARROW">
@@ -658,7 +658,7 @@
         </option>
         <option name="DART_TYPE_NAME_DYNAMIC">
             <value>
-                <option name="FOREGROUND" value="{{lavender}}"/>
+                <option name="FOREGROUND" value="{{pink}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -666,7 +666,7 @@
         </option>
         <option name="DART_TYPE_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="{{lavender}}"/>
+                <option name="FOREGROUND" value="{{pink}}"/>
             </value>
         </option>
         <option name="DART_UNRESOLVED_INSTANCE_MEMBER_REFERENCE">
@@ -692,7 +692,7 @@
         </option>
         <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -743,7 +743,7 @@
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
@@ -811,7 +811,7 @@
         </option>
         <option name="DEFAULT_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_FIELD">
@@ -867,7 +867,7 @@
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
@@ -890,7 +890,7 @@
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="{{lavender}}"/>
+                <option name="FOREGROUND" value="{{pink}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -1077,8 +1077,8 @@
         </option>
         <option name="GENERIC_SERVER_ERROR_OR_WARNING">
             <value>
-                <option name="EFFECT_COLOR" value="{{peach}}"/>
-                <option name="ERROR_STRIPE_COLOR" value="{{peach}}"/>
+                <option name="EFFECT_COLOR" value="{{naples_yellow}}"/>
+                <option name="ERROR_STRIPE_COLOR" value="{{naples_yellow}}"/>
                 <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
@@ -1110,7 +1110,7 @@
         </option>
         <option name="GHERKIN_REGEXP_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="GHERKIN_TABLE_HEADER_CELL">
@@ -1158,7 +1158,7 @@
         </option>
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="GO_PACKAGE_LOCAL_CONSTANT">
@@ -1180,7 +1180,7 @@
         </option>
         <option name="HAML_CLASS">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="HAML_COMMENT">
@@ -1272,11 +1272,11 @@
         </option>
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="{{rosewater}}"/>
+                <option name="FOREGROUND" value="{{brink_pink}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
-                <option name="EFFECT_COLOR" value="{{rosewater}}"/>
+                <option name="EFFECT_COLOR" value="{{brink_pink}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -1370,7 +1370,7 @@
         </option>
         <option name="JADE_TAG_CLASS">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="JADE_TAG_ID">
@@ -1381,7 +1381,7 @@
         <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER"/>
         <option name="JS.DECORATOR">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -1423,7 +1423,7 @@
         </option>
         <option name="KOTLIN_CONSTRUCTOR">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
@@ -1444,7 +1444,7 @@
         </option>
         <option name="KOTLIN_ENUM_ENTRY">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="KOTLIN_EXCLEXCL">
@@ -1467,13 +1467,13 @@
         </option>
         <option name="KOTLIN_NAMED_ARGUMENT">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD"/>
         <option name="KOTLIN_QUEST">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="KOTLIN_SMART_CAST_RECEIVER">
@@ -1528,7 +1528,7 @@
         </option>
         <option name="LIVE_TEMPLATE_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="{{lavender}}"/>
+                <option name="EFFECT_COLOR" value="{{pink}}"/>
             </value>
         </option>
         <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
@@ -1651,7 +1651,7 @@
         </option>
         <option name="MAGIC_MEMBER_ACCESS">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="MAKO.TAG">
@@ -1756,7 +1756,7 @@
         </option>
         <option name="MARKDOWN_LINK_DESTINATION">
             <value>
-                <option name="FOREGROUND" value="{{rosewater}}"/>
+                <option name="FOREGROUND" value="{{brink_pink}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -1764,7 +1764,7 @@
         </option>
         <option name="MARKDOWN_LINK_LABEL">
             <value>
-                <option name="FOREGROUND" value="{{lavender}}"/>
+                <option name="FOREGROUND" value="{{pink}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -1772,7 +1772,7 @@
         </option>
         <option name="MARKDOWN_LINK_TEXT">
             <value>
-                <option name="FOREGROUND" value="{{lavender}}"/>
+                <option name="FOREGROUND" value="{{pink}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -1823,22 +1823,22 @@
         </option>
         <option name="NG.BANANA_BINDING_ATTR_NAME">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="NG.EVENT_BINDING_ATTR_NAME">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="NG.PROPERTY_BINDING_ATTR_NAME">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="NG.TEMPLATE_BINDINGS_ATTR_NAME">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="NOT_TOP_FRAME_ATTRIBUTES">
@@ -1873,12 +1873,12 @@
         </option>
         <option name="OC.MACRONAME">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="OC.MACRO_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="OC.MESSAGE_ARGUMENT">
@@ -1912,7 +1912,7 @@
         </option>
         <option name="OC.PROPERTY_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="OC.PROTOCOL_REFERENCE">
@@ -1959,7 +1959,7 @@
         </option>
         <option name="PHP_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -2058,7 +2058,7 @@
         </option>
         <option name="PUPPET_NUMBER">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="PUPPET_OPERATION_SIGN">
@@ -2108,12 +2108,12 @@
         </option>
         <option name="PY.DECORATOR">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="PY.BUILTIN_NAME">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -2194,12 +2194,12 @@
         </option>
         <option name="REGEXP.BRACES">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="REGEXP.BRACKETS">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="REGEXP.CHARACTER">
@@ -2240,7 +2240,7 @@
         <option name="REGEXP.REDUNDANT_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE"/>
         <option name="REST.BOLD">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
                 <option name="FONT_TYPE" value="1"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
@@ -2268,7 +2268,7 @@
         <option name="REST.INTERPRETED" baseAttributes="DEFAULT_IDENTIFIER"/>
         <option name="REST.ITALIC">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
                 <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
@@ -2338,7 +2338,7 @@
         </option>
         <option name="ROUND_BRACKETS_RAINBOW_COLOR1">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="ROUND_BRACKETS_RAINBOW_COLOR2">
@@ -2378,7 +2378,7 @@
         <option name="RUBY_WORDS" baseAttributes="DEFAULT_STRING"/>
         <option name="RUNTIME_ERROR">
             <value>
-                <option name="EFFECT_COLOR" value="{{peach}}"/>
+                <option name="EFFECT_COLOR" value="{{naples_yellow}}"/>
                 <option name="ERROR_STRIPE_COLOR" value="{{red}}"/>
                 <option name="EFFECT_TYPE" value="5"/>
             </value>
@@ -2405,7 +2405,7 @@
         </option>
         <option name="ReSharper.ASP_NET_RUN_AT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="ReSharper.BRACE_OUTLINE">
@@ -2415,12 +2415,12 @@
         </option>
         <option name="ReSharper.FORMAT_STRING_ITEM">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="ReSharper.FORMAT_STRING_ITEM_2">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="ReSharper.HINT">
@@ -2446,7 +2446,7 @@
         </option>
         <option name="ReSharper.MATCHED_FORMAT_STRING_ITEM">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="ReSharper.OUTLINED_ENTITY">
@@ -2482,7 +2482,7 @@
         </option>
         <option name="SLIM_CLASS">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="SLIM_COMMENT">
@@ -2533,7 +2533,7 @@
         </option>
         <option name="SLIM_TAG_ATTR_KEY">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="SLIM_TAG_START">
@@ -2564,7 +2564,7 @@
         </option>
         <option name="SPY-JS.PATH_LEVEL_TWO">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
                 <option name="EFFECT_TYPE" value="1"/>
             </value>
         </option>
@@ -2578,7 +2578,7 @@
         </option>
         <option name="SPY-JS.VALUE_HINT">
             <value>
-                <option name="FOREGROUND" value="{{lavender}}"/>
+                <option name="FOREGROUND" value="{{pink}}"/>
             </value>
         </option>
         <option name="SQUARE_BRACKETS_RAINBOW_COLOR0">
@@ -2588,7 +2588,7 @@
         </option>
         <option name="SQUARE_BRACKETS_RAINBOW_COLOR1">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="SQUARE_BRACKETS_RAINBOW_COLOR2">
@@ -2613,7 +2613,7 @@
         </option>
         <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR1">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR2">
@@ -2643,7 +2643,7 @@
         </option>
         <option name="SWIFT_ATTRIBUTE_ARGUMENT">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="SWIFT_EXTERNAL_PARAMETER">
@@ -2666,7 +2666,7 @@
         <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES"/>
         <option name="Static property reference ID">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="TAB_SELECTED">
@@ -2714,12 +2714,12 @@
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
-                <option name="ERROR_STRIPE_COLOR" value="{{peach}}"/>
+                <option name="ERROR_STRIPE_COLOR" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="TS.MODULE_NAME">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
                 {{#if italics}}
                 <option name="FONT_TYPE" value="2"/>
                 {{/if}}
@@ -2789,8 +2789,8 @@
         </option>
         <option name="WARNING_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="{{peach}}"/>
-                <option name="ERROR_STRIPE_COLOR" value="{{peach}}"/>
+                <option name="EFFECT_COLOR" value="{{naples_yellow}}"/>
+                <option name="ERROR_STRIPE_COLOR" value="{{naples_yellow}}"/>
                 <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
@@ -2816,7 +2816,7 @@
         <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY"/>
         <option name="XML_NS_PREFIX">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="XML_TAG_DATA" baseAttributes="TEXT"/>
@@ -2909,7 +2909,7 @@
         </option>
         <option name="org.rust.MUT_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="{{peach}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
         <option name="org.rust.Q_OPERATOR">
@@ -2939,7 +2939,7 @@
         </option>
         <option name="osmorc.directiveName">
             <value>
-            <option name="FOREGROUND" value="{{naples_yellow}}"/>
+                <option name="FOREGROUND" value="{{naples_yellow}}"/>
             </value>
         </option>
     </attributes>

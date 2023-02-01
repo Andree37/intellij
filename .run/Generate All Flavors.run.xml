@@ -1,7 +1,17 @@
 <component name="ProjectRunConfigurationManager">
-    <configuration default="false" name="Generate All Flavours" type="DenoConfigurationType" inputPath="$PROJECT_DIR$/generateFlavours/main.ts" programParameters="run --allow-write --allow-read --allow-env">
-        <method v="2">
-            <option name="Make" enabled="true" />
-        </method>
-    </configuration>
+  <configuration default="false" name="Generate All Flavors" type="TypeScriptProgramRunner" factoryName="TypeScript">
+    <option name="interpreterRef" value="project" />
+    <option name="enabledTsNodeEsmLoader" value="false" />
+    <option name="interpreterOptions" value="" />
+    <option name="workingDirectory" value="$PROJECT_DIR$" />
+    <option name="tsconfigFile" value="" />
+    <option name="extraTypeScriptOptions" value="" />
+    <option name="scriptName" value="$PROJECT_DIR$/generateFlavors/main.ts" />
+    <option name="programParameters" value="" />
+    <module name="" />
+    <option name="tsnodePackage" value="~/github/Andree37/intellij/generateFlavors/node_modules/ts-node" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
 </component>

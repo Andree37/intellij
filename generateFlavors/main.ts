@@ -58,9 +58,9 @@ Object.entries(variants).forEach(([key, value]) => {
     };
 
     const theme: JBTheme = {
-        name: `Catppuccin ${capitalize(key)}`,
+        name: `Tbh Theme ${capitalize(key)}`,
         dark: !isLatte,
-        author: "Catppuccin Org <releases@catppuccin.com>",
+        author: "Tbh <releases@tbh-theme.com>",
         editorScheme: `/themes/${key}.xml`,
         colors: {
             brink_pink: colors.brink_pink,
@@ -170,7 +170,7 @@ Object.entries(variants).forEach(([key, value]) => {
                 ArrowButton: {
                     background: "secondaryBackground",
                     nonEditableBackground: "secondaryBackground",
-                    disabledIconColor: "lavender",
+                    disabledIconColor: "pink",
                     iconColor: "accentColor",
                 },
                 selectionBackground: "selectionBackground",
@@ -252,7 +252,7 @@ Object.entries(variants).forEach(([key, value]) => {
                 ToolWindow: {
                     warningForeground: "primaryForeground",
                     warningBackground: "primaryBackground",
-                    warningBorderColor: "peach",
+                    warningBorderColor: "naples_yellow",
                     errorForeground: "primaryForeground",
                     errorBorderColor: "red",
                     errorBackground: "primaryBackground",
@@ -474,13 +474,13 @@ Object.entries(variants).forEach(([key, value]) => {
 // USAGE:
 // {{opacity color opacity}}
 // EXAMPLE:
-// {{opacity rosewater 0.5}}
+// {{opacity brink_pink 0.5}}
 Handlebars.registerHelper("isLatte", handlebarsIsLatte);
 Handlebars.registerHelper("opacity", handlebarsOpacity);
 
-const templatePath = path.join("generateFlavours", "template.xml");
+const templatePath = path.join("generateFlavors", "template.xml");
 
-fs.readFile(templatePath, 'utf8', (data) => {
+fs.readFile(templatePath, 'utf8', (err, data) => {
     Object.entries(variants).forEach(([key, value]) => {
         const isLatte = key === "latte";
         const italicsVersions = [true, false];
