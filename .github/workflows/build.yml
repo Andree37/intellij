@@ -17,48 +17,45 @@ on:
             - '**.gradle.kts'
     workflow_dispatch:
 
-env:
-    DENO_DIR: deno_cache
-
 jobs:
     build:
         name: Build Plugin
         runs-on: ubuntu-latest
         steps:
-            - name: Checkout Repository
-              uses: actions/checkout@v3
+            -   name: Checkout Repository
+                uses: actions/checkout@v3
 
-            - name: Setup Java
-              uses: actions/setup-java@v3
-              with:
-                  distribution: zulu
-                  java-version: 11
-                  cache: 'gradle'
+            -   name: Setup Java
+                uses: actions/setup-java@v3
+                with:
+                    distribution: zulu
+                    java-version: 11
+                    cache: 'gradle'
 
-            - name: Setup Deno
-              uses: denoland/setup-deno@v1
-              with:
-                  deno-version: v1.x
+            -   name: Setup Node
+            -   uses: actions/setup-node@v3
+                with:
+                    node-version: 16
+                    cache: yarn
 
-            - name: Cache Deno
-              uses: actions/cache@v3
-              with:
-                  key: ${{ hashFiles('generateFlavours/lock.json') }}
-                  path: ${{ env.DENO_DIR }}
+            -   name: Install dependencies & build
+                run: |
+                    yarn install --frozen-lockfile
+                    yarn build
 
-            - name: Generate All Flavours
-              run: ./generateFlavours/main.ts
+            -   name: Generate All Flavours
+                run: ./generateFlavours/main.ts
 
-            - name: Build Plugin
-              run: ./gradlew buildPlugin
+            -   name: Build Plugin
+                run: ./gradlew buildPlugin
 
-            - name: Upload JAR
-              uses: actions/upload-artifact@v3
-              with:
-                  name: "Catppuccin Theme-Snapshot.jar"
-                  path: build/libs/*.jar
+            -   name: Upload JAR
+                uses: actions/upload-artifact@v3
+                with:
+                    name: "Tbh Theme-Snapshot.jar"
+                    path: build/libs/*.jar
 
-            - name: Output Unreleased Changes
-              run: |
-                  echo "# 🚧 Unreleased 🚧" >> $GITHUB_STEP_SUMMARY
-                  echo "$(./gradlew getChangelog --unreleased --no-header --console=plain -q)" >> $GITHUB_STEP_SUMMARY
+            -   name: Output Unreleased Changes
+                run: |
+                    echo "# 🚧 Unreleased 🚧" >> $GITHUB_STEP_SUMMARY
+                    echo "$(./gradlew getChangelog --unreleased --no-header --console=plain -q)" >> $GITHUB_STEP_SUMMARY
