@@ -45,6 +45,8 @@ Object.entries(variants).forEach(([key, value]) => {
         })
         .reduce((acc, curr) => ({...acc, ...curr}), {});
 
+    //
+
     const opacity = (color: string, val: number): string => {
         // mimick the context available in handlebars,
         // pass in the colors for the current iteration
