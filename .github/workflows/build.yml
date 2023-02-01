@@ -22,8 +22,11 @@ jobs:
         name: Build Plugin
         runs-on: ubuntu-latest
         steps:
-            -   name: Checkout Repository
-                uses: actions/checkout@v3
+            -   uses: actions/checkout@v3
+            -   uses: actions/setup-node@v3
+                with:
+                    node-version: 16
+                    cache: yarn
 
             -   name: Setup Java
                 uses: actions/setup-java@v3
@@ -32,16 +35,13 @@ jobs:
                     java-version: 11
                     cache: 'gradle'
 
-            -   name: Setup Node
-            -   uses: actions/setup-node@v3
-                with:
-                    node-version: 16
-                    cache: yarn
-
             -   name: Install dependencies & build
                 run: |
                     yarn install --frozen-lockfile
                     yarn build
+
+            -   name: Lint
+                run: yarn lint
 
             -   name: Generate All Flavours
                 run: ./generateFlavours/main.ts
